@@ -1,0 +1,12 @@
+Input: caesar_cipher("What a string!", 5)
+Expected: "Bmfy f xywnsl!"
+
+Input: caesar_cipher("Ruby is the best programming language!", 18)
+Expected: "Jmtq ak lzw twkl hjgyjseeafy dsfymsyw!"
+
+
+Input: caesar_cipher("Zebras have many stripes, they can be black or white.", 7)
+Expected: "Gliyhz ohcl thuf zaypwlz, aolf jhu il ishjr vy dopal."
+
+Input: caesar_cipher("THIS MESSAGE IS IN CAPITALS!! WOAH~!", 12)
+Expected: FTUE YQEEMSQ UE UZ OMBUFMXE!! IAMT~!

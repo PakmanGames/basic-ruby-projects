@@ -1,5 +1,3 @@
-require 'pry-byebug'
-
 def caesar_cipher(word, key)
   alphabet = "abcdefghijklmnopqrstuvwxyz".split("")
   alphabet_up = alphabet.join("").upcase.split("")
@@ -14,8 +12,3 @@ def caesar_cipher(word, key)
   end
   .map! {|num| num.chr}.join("")
 end
-
-p caesar_cipher("What a string!", 5)
-p caesar_cipher("Ruby is the best programming language!", 18)
-p caesar_cipher("Zebras have many stripes, they can be black or white.", 7)
-p caesar_cipher("THIS MESSAGE IS IN CAPITALS!! WOAH~!", 12)
