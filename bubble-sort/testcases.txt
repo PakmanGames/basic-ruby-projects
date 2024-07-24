@@ -1,0 +1,5 @@
+Input: bubble_sort([4,3,78,2,0,2])
+Expected: [0, 2, 2, 3, 4, 78]
+
+Input: bubble_sort([3, 2, 9, 6, 5])
+Expected: [2, 3, 5, 6, 9]
